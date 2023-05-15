@@ -431,17 +431,19 @@ img{
   text-align: center;
   align-self: start;
 }
-.left10>li{
+.left10 h3{
+  background:#37523d;
+  color: #fff;
+  padding: 25px 0;
+}
+.menu10>li{
   white-space: nowrap;
   padding: 25px 105px;
 }
-.left10 li:hover{
+.menu10 li:hover{
   background: #e7eeea;
 }
-.left10>li:nth-child(1){
-  color: #fff;
-  background: #36523d;
-}
+
 .right10{
   display: flex;
   flex-wrap: wrap;
